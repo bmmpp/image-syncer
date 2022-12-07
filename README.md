@@ -1,4 +1,5 @@
-
+## git
+git config --global http.sslVerify "false"
 ## image-syncer
 sync k8s.gcr.io docker images to dockerhub or aliyun registry use [aliyun image-syncer](https://github.com/AliyunContainerService/image-syncer) and github action!
 
