@@ -3,5 +3,5 @@ auth:
     username: $USERNAME
     password: $PASSWORD
 images:
-   registry.k8s.io/ingress-nginx/kube-webhook-certgen: willdockerhub/kube-webhook-certgen
-   registry.k8s.io/ingress-nginx/controller: willdockerhub/controller
+   registry.k8s.io/ingress-nginx/kube-webhook-certgen: registry.cn-shenzhen.aliyuncs.com/slien_cloud/kube-webhook-certgen
+   registry.k8s.io/ingress-nginx/controller: registry.cn-shenzhen.aliyuncs.com/slien_cloud/controller
