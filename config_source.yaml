@@ -3,4 +3,5 @@ auth:
     username: $USERNAME
     password: $PASSWORD
 images:
-   k8s.gcr.io/metrics-server/metrics-server: willdockerhub/metrics-server
+   registry.k8s.io/ingress-nginx/kube-webhook-certgen: willdockerhub/kube-webhook-certgen
+   registry.k8s.io/ingress-nginx/controller willdockerhub/controller
